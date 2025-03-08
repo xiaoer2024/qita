@@ -1,0 +1,11 @@
+1. 添加   （chinatelecom.py    Ruishu.py  ） 到青龙面板脚本管理
+2.环境变量
+创建变量   →      名称 chinaTelecomAccount    →   值 手机号#服务密码 （多账号换行）→ 确定
+3.调试（测试）脚本
+     设置本子   460行    isTRUE=False    
+  测试完改回True（不测试忽略第3部）
+4 定时任务
+  创建任务→名称（自定义）→命令脚本[task chinatelecom.py   (chinatelecom.py更换自己放脚本的目录）   ]→定时规则（58 23 * * *）→确定
+5.注意事项 
+1.Ruishu.py 不要更改名字   不用设置定时任务
+2.依赖本人没测试，缺依赖就添加本人依赖
