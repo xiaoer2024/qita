@@ -1,3 +1,8 @@
+/*
+
+const $ = new Env("瑞数通杀");
+
+*/
 delete __filename
 delete __dirname
 ActiveXObject = undefined
